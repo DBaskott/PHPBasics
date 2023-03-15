@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<?php
+
+$a = 1;
+$b = 5;
+$c = 10;
+$d = 0;
+$people = array("Ben" => "25", "James" => "18", "Courtney" => "25", "Lara" =>"18");
+
+while ($a <= $b){
+	echo "A is behind B by:", $b-$a, "<br>";
+    $a++;
+    $d++;
+}
+
+do {
+    echo "A is behind C by:", $c-$a, "<br>";
+    $a++;
+    $d++;
+
+} while($a <= $c);
+
+for ($d; $d >0; $d--){
+	echo "Reducing D from ", $d , " to 0!<br>";
+    if ($d == 0){ 
+    	break;
+       }
+	
+}
+
+foreach($people as $name => $age) {
+  echo "$name = $age<br>";
+}
+
+?>
+
+ 
+</body>
+</html>
