@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$Type = "BMW"; 
+$type = "Tesla";
+$typE = "VW";
+
+echo "My car is " . $Type . "<br>"; 
+ECHO "My car is " . $type . "<br>";
+EchO "My car is " . $typE . "<br>";
+?>
+
+</body>
+</html>
