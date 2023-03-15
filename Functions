@@ -1,0 +1,15 @@
+<doctype ="html">
+<Html>
+<Head>
+
+<?php
+function WriteMessage() {
+  echo "Hello world!";
+}
+
+WriteMessage(); 
+?>
+
+
+</Head>
+</html>
