@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<?php
+$a = 100;
+$b = 70;
+
+echo "$a <br>";
+echo "$b <br>";
+
+
+if ($a > $b) {
+	echo ($a - $b);
+} else {
+	echo ($b - $a);
+}
+
+?>
+ 
+</body>
+</html>
+
