@@ -5,6 +5,7 @@
 <?php
 $a = 100;
 $b = 70;
+$c = 50;
 
 echo "$a <br>";
 echo "$b <br>";
@@ -12,7 +13,9 @@ echo "$b <br>";
 
 if ($a > $b) {
 	echo ($a - $b);
-} else {
+} elseif ($a > $c){
+	echo ($a - $c);
+}else {
 	echo ($b - $a);
 }
 
